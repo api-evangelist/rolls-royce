@@ -7,12 +7,55 @@ tags:
   - Aerospace
   - Defense
   - Aviation
-  - Manufacturing
-description: 'A British multinational aerospace and defense company manufacturing aircraft engines, power systems, and nuclear propulsion. One of the world''s leading producers of aero engines for commercial and military aviation.'
+  - Power Systems
+description: >-
+  Rolls-Royce plc is a British multinational aerospace and defense company
+  manufacturing aero engines (Trent series), defense propulsion, and power
+  systems. Rolls-Royce does not publish a public developer API. The company
+  operates supplier portals at suppliers.rolls-royce.com and maintains a
+  small GitHub presence with the qc-cfd open-source repository covering
+  quantum computing for computational fluid dynamics research.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: rolls-royce:qc-cfd
+    name: Rolls-Royce qc-cfd
+    tags:
+      - Quantum Computing
+      - Computational Fluid Dynamics
+      - Open Source
+      - Research
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://github.com/rolls-royce/qc-cfd
+    properties:
+      - url: https://github.com/rolls-royce/qc-cfd
+        type: SourceCode
+    description: >-
+      qc-cfd is Rolls-Royce's open-source C codebase exploring quantum
+      computing approaches to computational fluid dynamics, a long-term
+      research direction for aero engine simulation.
 common:
   - type: Website
     url: https://www.rolls-royce.com/
+  - type: GitHubOrg
+    url: https://github.com/rolls-royce
+  - type: SupplierPortal
+    url: https://suppliers.rolls-royce.com/
+  - type: TechnologyLicensing
+    url: https://www.rolls-royce.com/contact-us/inventors-and-technology-licensing.aspx
+  - type: Vocabulary
+    url: vocabulary/rolls-royce-vocabulary.yml
+  - type: Features
+    data:
+      - name: Civil Aerospace Engines
+        description: Trent family of large turbofan engines for wide-body aircraft
+      - name: Defence Propulsion
+        description: Military aero engines and naval nuclear propulsion
+      - name: Power Systems
+        description: MTU-branded high-speed engines and power generation systems
+      - name: Research Open Source
+        description: qc-cfd explores quantum approaches to CFD
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

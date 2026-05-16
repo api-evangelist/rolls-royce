@@ -1,0 +1,18 @@
+vocabulary: rolls-royce
+description: Vocabulary for Rolls-Royce's aerospace, defense, and power systems
+terms:
+  - term: Trent
+    definition: Family of Rolls-Royce three-shaft turbofan engines for wide-body aircraft
+  - term: MTU Friedrichshafen
+    definition: Rolls-Royce Power Systems brand for high-speed diesel and gas engines
+  - term: CFD
+    definition: Computational Fluid Dynamics, used in engine design and validation
+  - term: Naval Nuclear Propulsion
+    definition: Rolls-Royce submarine reactor technology supplied to the Royal Navy
+  - term: Aftermarket Services
+    definition: Engine maintenance, repair, and overhaul (MRO) services
+dimensions:
+  - name: division
+    values: [CivilAerospace, Defence, PowerSystems, NewMarkets]
+  - name: lifecycle
+    values: [Design, Manufacturing, Operation, MRO]

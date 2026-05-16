@@ -1,17 +1,26 @@
 # Rolls-Royce (rolls-royce)
 
-A British multinational aerospace and defense company manufacturing aircraft engines, power systems, and nuclear propulsion. One of the world's leading producers of aero engines for commercial and military aviation.
+Rolls-Royce plc is a British multinational aerospace and defense company manufacturing aero engines (Trent series), defense propulsion, and power systems. Rolls-Royce does not publish a public developer API. The company operates supplier portals and maintains a small open-source GitHub presence anchored by qc-cfd, a quantum computing for computational fluid dynamics research repository.
 
 **URL:** [https://www.rolls-royce.com/](https://www.rolls-royce.com/)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=rolls-royce-api-evangelist&utm_content=repo)
+**GitHub:** [https://github.com/rolls-royce](https://github.com/rolls-royce)
 
-## Tags:
+## Tags
 
- - Aerospace, Defense, Aviation, Manufacturing
+- Aerospace, Defense, Aviation, Power Systems
+
+## APIs / Libraries
+
+- **[qc-cfd](https://github.com/rolls-royce/qc-cfd)** — Quantum computing for CFD research.
+
+## Artifacts
+
+| Type | Path |
+|---|---|
+| Vocabulary | [vocabulary/rolls-royce-vocabulary.yml](vocabulary/rolls-royce-vocabulary.yml) |
 
 ## Timestamps
 
 - **Created:** 2026-05-05
-- **Modified:** 2026-05-05
-
+- **Modified:** 2026-05-16
