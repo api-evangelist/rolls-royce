@@ -2,7 +2,7 @@ aid: rolls-royce
 url: https://raw.githubusercontent.com/api-evangelist/rolls-royce/refs/heads/main/apis.yml
 name: Rolls-Royce
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Aerospace
   - Defense
@@ -26,7 +26,7 @@ apis:
       - Computational Fluid Dynamics
       - Open Source
       - Research
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://github.com/rolls-royce/qc-cfd
     properties:
       - url: https://github.com/rolls-royce/qc-cfd
