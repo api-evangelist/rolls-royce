@@ -36,6 +36,10 @@ apis:
       computing approaches to computational fluid dynamics, a long-term
       research direction for aero engine simulation.
 common:
+  - type: DomainSecurity
+    url: security/rolls-royce-domain-security.yml
+  - url: https://www.rolls-royce.com/media/press-releases.aspx
+    type: Blog
   - type: LinkedIn
     url: https://www.linkedin.com/company/rolls-royce
   - type: Website
