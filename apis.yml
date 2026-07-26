@@ -2,7 +2,18 @@ aid: rolls-royce
 url: https://raw.githubusercontent.com/api-evangelist/rolls-royce/refs/heads/main/apis.yml
 name: Rolls-Royce
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rolls-royce.png
 tags:
   - Aerospace
   - Defense
@@ -16,25 +27,9 @@ description: >-
   small GitHub presence with the qc-cfd open-source repository covering
   quantum computing for computational fluid dynamics research.
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-07-25'
 specificationVersion: '0.19'
-apis:
-  - aid: rolls-royce:qc-cfd
-    name: Rolls-Royce qc-cfd
-    tags:
-      - Quantum Computing
-      - Computational Fluid Dynamics
-      - Open Source
-      - Research
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://github.com/rolls-royce/qc-cfd
-    properties:
-      - url: https://github.com/rolls-royce/qc-cfd
-        type: SourceCode
-    description: >-
-      qc-cfd is Rolls-Royce's open-source C codebase exploring quantum
-      computing approaches to computational fluid dynamics, a long-term
-      research direction for aero engine simulation.
+apis: []
 common:
   - type: DomainSecurity
     url: security/rolls-royce-domain-security.yml
@@ -62,6 +57,8 @@ common:
         description: MTU-branded high-speed engines and power generation systems
       - name: Research Open Source
         description: qc-cfd explores quantum approaches to CFD
+  - type: ProductPage
+    url: https://github.com/rolls-royce/qc-cfd
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
